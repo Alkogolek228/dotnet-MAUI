@@ -1,0 +1,15 @@
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\bin\Debug\net8.0\Lab5.ApplicationLayer.deps.json
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\bin\Debug\net8.0\Lab5.ApplicationLayer.dll
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\bin\Debug\net8.0\Lab5.ApplicationLayer.pdb
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\bin\Debug\net8.0\Lab5.Domain.dll
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\bin\Debug\net8.0\Lab5.Domain.pdb
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\Lab5.ApplicationLayer.csproj.AssemblyReference.cache
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\Lab5.ApplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\Lab5.ApplicationLayer.AssemblyInfoInputs.cache
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\Lab5.ApplicationLayer.AssemblyInfo.cs
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\Lab5.ApplicationLayer.csproj.CoreCompileInputs.cache
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\Lab5.ApplicationLayer.csproj.CopyComplete
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\Lab5.ApplicationLayer.dll
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\refint\Lab5.ApplicationLayer.dll
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\Lab5.ApplicationLayer.pdb
+D:\Unik\labs\Alkhovik\Lab5.ApplicationLayer\obj\Debug\net8.0\ref\Lab5.ApplicationLayer.dll

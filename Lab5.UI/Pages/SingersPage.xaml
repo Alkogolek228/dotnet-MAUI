@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:models="clr-namespace:Lab5.UI.ViewModels"
+             xmlns:converters="clr-namespace:Lab5.UI.ValueConverters"
+             xmlns:entities="clr-namespace:Lab5.Domain.Entities;assembly=Lab5.Domain"
+             x:Class="Lab5.UI.Pages.SingersPage"
+             x:DataType="models:SingersViewModel"
+             Title="Singers">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"
+                                        Command="{Binding UpdateSingersCommand}"/>
+        <toolkit:EventToCommandBehavior EventName="NavigatedTo"
+                                        Command="{Binding UpdateSingersCommand}"/>
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <converters:PositionToColorValueConverter x:Key="PositionToColor"/>
+        <converters:ValueToBooleanConverter x:Key="IsNotNull"/>
+        <converters:IdToImageSourceConverter x:Key="IdToImageSource"/>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add singer" Command="{Binding AddSingerCommand}"/>
+        <ToolbarItem Text="Update singer" Command="{Binding UpdateSingerCommand}"/>
+        <ToolbarItem Text="Delete singer" Command="{Binding DeleteSingerCommand}"/>
+        <ToolbarItem Text="Add song" Command="{Binding AddSongCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+    <VerticalStackLayout>
+        <Picker
+            ItemsSource="{Binding Singers}"
+            ItemDisplayBinding="{Binding}"
+            SelectedItem="{Binding SelectedSinger}">
+            <Picker.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged"
+                                                Command="{Binding UpdateSongsCommand}"/>
+            </Picker.Behaviors>
+        </Picker>
+
+        <Frame IsVisible="{Binding SelectedSinger, Converter={StaticResource IsNotNull}}">
+            <VerticalStackLayout>
+                <HorizontalStackLayout Spacing="5">
+                    <Label Text="Name:"/>
+                    <Label Text="{Binding SelectedSinger.Name}"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="5">
+                    <Label Text="Age:"/>
+                    <Label Text="{Binding SelectedSinger.Age}"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
+
+        <CollectionView ItemsSource="{Binding Songs}" IsVisible="{Binding SelectedSinger, Converter={StaticResource IsNotNull}}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="entities:Song">
+                    <Frame Margin="5" Padding="5" BackgroundColor="{Binding Position, Converter={StaticResource PositionToColor}}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer 
+                             Command="{Binding Source={RelativeSource AncestorType={x:Type models:SingersViewModel}},
+                             Path=ShowDetailsCommand}" 
+                             CommandParameter="{Binding}"/>
+                        </Frame.GestureRecognizers>
+
+                        <HorizontalStackLayout Spacing="3">
+                            <Frame Margin="5"
+                                   BorderColor="Black"
+                                   CornerRadius="50"
+                                   HeightRequest="110"
+                                   WidthRequest="110"
+                                   IsClippedToBounds="True" 
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center">
+                                <Image
+                                    Aspect="AspectFill"
+                                    HeightRequest="70"
+                                    WidthRequest="70"
+                                    Source="{Binding Id, Converter={StaticResource IdToImageSource}}"></Image>
+                            </Frame>
+
+                            <HorizontalStackLayout VerticalOptions="Center" Spacing="15">
+                                <Label Text="{Binding Name}" TextColor="Black"/>
+                                <Label Text="{Binding Position}" TextColor="Black"/>
+                            </HorizontalStackLayout>
+
+                        </HorizontalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

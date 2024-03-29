@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "P/yND2ddCQdWIDMyCtev9qALXBVhdAwyySd7kmSUepSzqbeARxgVBQvfBXajX0mqMzZvztaj1wXmlmN5dpu/sA==",
+  "success": true,
+  "projectFilePath": "D:\\Unik\\labs\\Alkhovik\\Lab5.ApplicationLayer\\Lab5.ApplicationLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

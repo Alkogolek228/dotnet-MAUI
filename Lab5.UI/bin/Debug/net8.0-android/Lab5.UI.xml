@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lab5.UI</name>
+    </assembly>
+    <members>
+        <member name="T:Lab5.UI.ViewModels.AddOrUpdateSingerViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.AddOrUpdateSingerViewModel.SingerToAddOrUpdate">
+            <inheritdoc cref="F:Lab5.UI.ViewModels.AddOrUpdateSingerViewModel.singerToAddOrUpdate"/>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.AddOrUpdateSingerViewModel.addOrUpdateSingerCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.AddOrUpdateSingerViewModel.AddOrUpdateSingerCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.AddOrUpdateSingerViewModel.AddOrUpdateSingerCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.AddOrUpdateSingerViewModel.AddOrUpdateSinger"/>.</summary>
+        </member>
+        <member name="T:Lab5.UI.ViewModels.AddOrUpdateSongViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.SongToAddOrUpdate">
+            <inheritdoc cref="F:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.songToAddOrUpdate"/>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.Singer">
+            <inheritdoc cref="F:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.singer"/>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.Image">
+            <inheritdoc cref="F:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.image"/>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.pickImageCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.PickImageCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.PickImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.PickImage"/>.</summary>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.addOrUpdateSongCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.AddOrUpdateSongCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.AddOrUpdateSongCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.AddOrUpdateSongViewModel.AddOrUpdateSong"/>.</summary>
+        </member>
+        <member name="T:Lab5.UI.ViewModels.SingersViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.Singers">
+            <inheritdoc cref="F:Lab5.UI.ViewModels.SingersViewModel._singers"/>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.Songs">
+            <inheritdoc cref="F:Lab5.UI.ViewModels.SingersViewModel._songs"/>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.SelectedSinger">
+            <inheritdoc cref="F:Lab5.UI.ViewModels.SingersViewModel.selectedSinger"/>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.SingersViewModel.showDetailsCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.SingersViewModel.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.SingersViewModel.ShowDetails(Lab5.Domain.Entities.Song)"/>.</summary>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.SingersViewModel.addSongCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.SingersViewModel.AddSongCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.AddSongCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.SingersViewModel.AddSong"/>.</summary>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.SingersViewModel.addSingerCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.SingersViewModel.AddSingerCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.AddSingerCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.SingersViewModel.AddSinger"/>.</summary>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.SingersViewModel.updateSingerCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.SingersViewModel.UpdateSingerCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.UpdateSingerCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.SingersViewModel.UpdateSinger"/>.</summary>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.SingersViewModel.deleteSingerCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.SingersViewModel.DeleteSingerCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.DeleteSingerCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.SingersViewModel.DeleteSinger"/>.</summary>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.SingersViewModel.updateSingersCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.SingersViewModel.UpdateSingersCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.UpdateSingersCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.SingersViewModel.UpdateSingers"/>.</summary>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.SingersViewModel.updateSongsCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.SingersViewModel.UpdateSongsCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SingersViewModel.UpdateSongsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.SingersViewModel.UpdateSongs"/>.</summary>
+        </member>
+        <member name="T:Lab5.UI.ViewModels.SongDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SongDetailsViewModel.Song">
+            <inheritdoc cref="F:Lab5.UI.ViewModels.SongDetailsViewModel.song"/>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.SongDetailsViewModel.updateSongCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.SongDetailsViewModel.UpdateSongCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SongDetailsViewModel.UpdateSongCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.SongDetailsViewModel.UpdateSong"/>.</summary>
+        </member>
+        <member name="F:Lab5.UI.ViewModels.SongDetailsViewModel.deleteSongCommand">
+            <summary>The backing field for <see cref="P:Lab5.UI.ViewModels.SongDetailsViewModel.DeleteSongCommand"/>.</summary>
+        </member>
+        <member name="P:Lab5.UI.ViewModels.SongDetailsViewModel.DeleteSongCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Lab5.UI.ViewModels.SongDetailsViewModel.DeleteSong"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_InputView.TextColorTo(Microsoft.Maui.Controls.InputView,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SingerToAddOrUpdate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SingerToAddOrUpdate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SongToAddOrUpdate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SongToAddOrUpdate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Singer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Singer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Image">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Image" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Singers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Singers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Songs">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Songs" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedSinger">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedSinger" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Song">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Song" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SingerToAddOrUpdate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SingerToAddOrUpdate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SongToAddOrUpdate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SongToAddOrUpdate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Singer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Singer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Image">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Image" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Singers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Singers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Songs">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Songs" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedSinger">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedSinger" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Song">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Song" generated properties.</summary>
+        </member>
+    </members>
+</doc>

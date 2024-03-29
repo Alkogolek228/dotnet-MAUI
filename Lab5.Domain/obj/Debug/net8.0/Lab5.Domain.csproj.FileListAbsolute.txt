@@ -1,0 +1,11 @@
+D:\Unik\labs\Alkhovik\Lab5.Domain\bin\Debug\net8.0\Lab5.Domain.deps.json
+D:\Unik\labs\Alkhovik\Lab5.Domain\bin\Debug\net8.0\Lab5.Domain.dll
+D:\Unik\labs\Alkhovik\Lab5.Domain\bin\Debug\net8.0\Lab5.Domain.pdb
+D:\Unik\labs\Alkhovik\Lab5.Domain\obj\Debug\net8.0\Lab5.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unik\labs\Alkhovik\Lab5.Domain\obj\Debug\net8.0\Lab5.Domain.AssemblyInfoInputs.cache
+D:\Unik\labs\Alkhovik\Lab5.Domain\obj\Debug\net8.0\Lab5.Domain.AssemblyInfo.cs
+D:\Unik\labs\Alkhovik\Lab5.Domain\obj\Debug\net8.0\Lab5.Domain.csproj.CoreCompileInputs.cache
+D:\Unik\labs\Alkhovik\Lab5.Domain\obj\Debug\net8.0\Lab5.Domain.dll
+D:\Unik\labs\Alkhovik\Lab5.Domain\obj\Debug\net8.0\refint\Lab5.Domain.dll
+D:\Unik\labs\Alkhovik\Lab5.Domain\obj\Debug\net8.0\Lab5.Domain.pdb
+D:\Unik\labs\Alkhovik\Lab5.Domain\obj\Debug\net8.0\ref\Lab5.Domain.dll

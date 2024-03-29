@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab5.UI.Pages.SongDetailsPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:converters="clr-namespace:Lab5.UI.ValueConverters"
+             xmlns:models="clr-namespace:Lab5.UI.ViewModels"
+             xmlns:entities="clr-namespace:Lab5.Domain.Entities;assembly=Lab5.Domain"
+             x:DataType="models:SongDetailsViewModel"
+             Title="SongDetailsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Update" Command="{Binding UpdateSongCommand}"/>
+        <ToolbarItem Text="Delete" Command="{Binding DeleteSongCommand}"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Resources>
+        <converters:IdToImageSourceConverter x:Key="IdToImageSource"/>
+    </ContentPage.Resources>
+    
+    <VerticalStackLayout Margin="10" Spacing="15">
+        <Image
+             Source="{Binding Song.Id, Converter={StaticResource IdToImageSource}}"
+             HeightRequest="200"
+             HorizontalOptions="Center">
+        </Image>
+        <Frame HorizontalOptions="Center" BackgroundColor="LightBlue">
+            <VerticalStackLayout>
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="Name:"/>
+                    <Label Text="{Binding Song.Name}"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="Position:"/>
+                    <Label Text="{Binding Song.Position}"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="Duration in seconds:"/>
+                    <Label Text="{Binding Song.DurationInSeconds}"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

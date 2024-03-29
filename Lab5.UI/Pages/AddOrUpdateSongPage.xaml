@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab5.UI.Pages.AddOrUpdateSongPage"
+             xmlns:models="clr-namespace:Lab5.UI.ViewModels"
+             xmlns:converters="clr-namespace:Lab5.UI.ValueConverters"
+             xmlns:entities="clr-namespace:Lab5.Domain.Entities;assembly=Lab5.Domain"
+             x:DataType="models:AddOrUpdateSongViewModel"
+             Title="AddOrUpdateSongPage">
+    <ContentPage.Resources>
+        <converters:ValueToBooleanConverter x:Key="IsNotNull"/>
+    </ContentPage.Resources>
+
+    <StackLayout Margin="10" Spacing="15">
+        <HorizontalStackLayout>
+            <Button Text="Pick a png image!" Command="{Binding PickImageCommand}"/>
+            <Label Text="Succesfully added" IsVisible="{Binding Image, Converter={StaticResource IsNotNull}}"/>
+        </HorizontalStackLayout>
+        <VerticalStackLayout>
+            <Label Text="Name"/>
+            <Entry Text="{Binding SongToAddOrUpdate.Name}" Placeholder="Name"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="Position"/>
+            <Entry Text="{Binding SongToAddOrUpdate.Position}" Placeholder="Position"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="Duration in seconds"/>
+            <Entry Text="{Binding SongToAddOrUpdate.DurationInSeconds}" Placeholder="0"/>
+        </VerticalStackLayout>
+
+        <Button Text="Save" Command="{Binding AddOrUpdateSongCommand}"/>
+    </StackLayout>
+</ContentPage>

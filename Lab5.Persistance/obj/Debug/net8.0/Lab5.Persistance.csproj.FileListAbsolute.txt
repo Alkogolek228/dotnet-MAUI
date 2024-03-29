@@ -1,0 +1,15 @@
+D:\Unik\labs\Alkhovik\Lab5.Persistance\bin\Debug\net8.0\Lab5.Persistance.deps.json
+D:\Unik\labs\Alkhovik\Lab5.Persistance\bin\Debug\net8.0\Lab5.Persistance.dll
+D:\Unik\labs\Alkhovik\Lab5.Persistance\bin\Debug\net8.0\Lab5.Persistance.pdb
+D:\Unik\labs\Alkhovik\Lab5.Persistance\bin\Debug\net8.0\Lab5.Domain.dll
+D:\Unik\labs\Alkhovik\Lab5.Persistance\bin\Debug\net8.0\Lab5.Domain.pdb
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\Lab5.Persistance.csproj.AssemblyReference.cache
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\Lab5.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\Lab5.Persistance.AssemblyInfoInputs.cache
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\Lab5.Persistance.AssemblyInfo.cs
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\Lab5.Persistance.csproj.CoreCompileInputs.cache
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\Lab5.Persistance.csproj.CopyComplete
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\Lab5.Persistance.dll
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\refint\Lab5.Persistance.dll
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\Lab5.Persistance.pdb
+D:\Unik\labs\Alkhovik\Lab5.Persistance\obj\Debug\net8.0\ref\Lab5.Persistance.dll
